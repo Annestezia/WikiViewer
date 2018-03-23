@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wiki Viewer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <noscript><p>Please enable  Javascript</p></noscript>
+
+  <div class="container main  col-md-10 col-lg-6" >
+    
+    <div class="jumbotron myCard front">
+      <h1>Wikipedia Viewer</h1>
+    </div>
+    <div class="jumbotron myCard back">
+      <p>yep its another boring bootstrapp</p>
+    </div>
+  <div >
+      <p><a href="https://en.wikipedia.org/wiki/Special:Random" id="random" target="_blank" role="button" class="btn btn-outline-success btn-md" title="Take me to some random Wiki article!">I want something random</a></p>
+  </div>
+  <!--   INPUTS -->
+      <div class="input-group">
+         <span class="input-group-btn">
+          <button class="btn btn-md btn-secondary"  id="reset" title="Reset search"><i class="fa fa-times"></i></button>
+        </span>
+        <input type="text" id="searchInput" class="form-control" placeholder="Search for..."/>
+         <span class="input-group-btn">
+          <button class="btn btn-md btn-secondary" type="submit" id="searchButton" title="Find this">Go!</button>
+        </span>
+      </div>
+  <!-- RESULT -->
+    <div class="result-block">
+  <!--     <h2 class="resultHeader">Search Results</h2> -->
+      <div id="result"></div>
+    </div>
+  <!-- <div class="chicken-box"><img src="http://gifimage.net/wp-content/uploads/2017/07/dancing-chicken-gif-9.gif" alt=""></div> -->
+  </div><!-- container main -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC:400,700');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a:hover, a:focus{
+  text-decoration: none;
+}
+body{
+  margin-top:1em;
+  min-width:280px;
+}
+
+.jumbotron{
+  background-image: url(https://www.iwantwallpaper.co.uk/images/grandeco-exclusive-biblioteque-library-books-pattern-bookshelf-embossed-vinyl-wallpaper-voc-01-01-5-p1858-3324_image.jpg);
+  background-size: cover;
+}
+.back{
+  font-size: 1.2em;
+  display: none;
+}
+.container main{
+  border: 1px solid #ccc;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+h1, h2{
+    font-family: 'Alegreya SC', serif;
+    color: #608000;
+    text-align: center;
+}
+h1{
+  background-color: rgba(240,240,240, .7);
+  text-shadow: 1px 1px 0px #333;
+  padding: 8px;
+  margin: 0 10px;
+  box-shadow: inset 0 0  0px 1px rgba(53, 70, 2,.7);
+}
+h2{
+  margin: 10px 0;
+}
+
+.result-block h2{
+  margin: 25px 0 20px 0;
+  }
+#result{
+  margin-top: 20px;
+}
+/* #result:last-child{
+  margin-bottom:60px;
+} */
+
+.article{
+  color: #444;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.article h4{
+  border-left: 7px solid #607f00;/*#faab1d; */
+  padding-left: 5px;
+}
+
+.article:hover{
+  transition: background-color 1s;
+  background-color: #f1ffc2;
+     
+}
+
+.article a{
+ color: #666;
+}
+a:-webkit-any-link, a:-moz-any-link {
+text-decoration: none;
+}
